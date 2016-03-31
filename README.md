@@ -45,11 +45,8 @@ Configuration for `p5.js` and all plugins
 }
 ```
 
-## Development
+## Generate the eslint environment
 Install [browserify](https://github.com/substack/node-browserify)
 ```
-# Generate a mock web audio api implementation so p5.sound can be instantiated in jsdom
-npm run-script mock-audio-api
-# Generate the global symbols
-npm run-script generate-globals
+npm run-script generate
 ```

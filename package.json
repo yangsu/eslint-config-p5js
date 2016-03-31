@@ -12,8 +12,7 @@
     "standardized-audio-context-mock": "^0.2.0"
   },
   "scripts": {
-    "generate-globals": "node generate-globals.js",
-    "mock-audio-api": "browserify node_modules/standardized-audio-context-mock/src/module.js -s 'mock-audio-api' > mock-audio-api.js"
+    "generate": "browserify node_modules/standardized-audio-context-mock/src/module.js -s 'mock-audio-api' > mock-audio-api.js && node generate.js && rm mock-audio-api.js"
   },
   "repository": {
     "type": "git",
