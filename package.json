@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-p5js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for p5.js",
   "main": "index.js",
   "dependencies": {},
