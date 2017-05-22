@@ -47,6 +47,8 @@ Configuration for `p5.js` and all plugins
 
 ## Generate the eslint environment
 Install [browserify](https://github.com/substack/node-browserify)
+Run [installation instructions for node-canvas](https://github.com/Automattic/node-canvas#installation)
+
 ```
 npm run-script generate
 ```
