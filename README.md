@@ -10,24 +10,18 @@
 npm install --save-dev eslint-config-p5js
 ```
 
-
 ## Usage
 
 Add the following to your `.eslintrc`, which includes the configuration for `p5.js`
+
 ```
 {
     "extends": "p5js"
 }
 ```
 
-Configuration for `p5.dom`
-```
-{
-    "extends": "p5js/dom"
-}
-```
-
 Configuration for `p5.sound`
+
 ```
 {
     "extends": "p5js/sound"
@@ -35,17 +29,18 @@ Configuration for `p5.sound`
 ```
 
 Configuration for `p5.js` and all plugins
+
 ```
 {
     "extends": [
         "p5js"
-        "p5js/dom"
         "p5js/sound"
     ]
 }
 ```
 
 ## Generate the eslint environment
+
 Install [browserify](https://github.com/substack/node-browserify)
 Run [installation instructions for node-canvas](https://github.com/Automattic/node-canvas#installation)
 
