@@ -33,7 +33,7 @@ Configuration for `p5.js` and all plugins
 ```
 {
     "extends": [
-        "p5js"
+        "p5js",
         "p5js/sound"
     ]
 }
