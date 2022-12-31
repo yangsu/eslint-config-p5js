@@ -8,7 +8,7 @@
     "canvas": "^2.6.1",
     "jsdom": "^16.2.2",
     "lodash": "^4.6.1",
-    "standardized-audio-context-mock": "^0.2.0"
+    "standardized-audio-context-mock": "^9.6.8"
   },
   "scripts": {
     "generate": "browserify node_modules/standardized-audio-context-mock/src/module.js -s 'mock-audio-api' > mock-audio-api.js && node generate.js && rm mock-audio-api.js"
